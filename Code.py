@@ -55,7 +55,7 @@ import datetime
 #import warnings
 import plotly.graph_objs as go  
 import plotly.express as px
-warnings.simplefilter('ignore')
+#warnings.simplefilter('ignore')
 
 # %% [markdown]
 # # 4. Data Acquisition

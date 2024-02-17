@@ -25,8 +25,8 @@ jobs:
           REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           # Post reports as comments in GitHub PRs
+          
           cat metrics.txt >> report.md
-
-          echo "## Visualizing the Clusters" --md >> report.md
-          cml-publish Clusters.png --md >> report.md
+          echo "## Visualizing the Clusters" >> report.md
+          cml-publish Clusters.png >> report.md
           cml comment create report.md

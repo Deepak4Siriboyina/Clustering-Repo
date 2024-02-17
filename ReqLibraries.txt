@@ -6,3 +6,4 @@ seaborn
 plotly
 datetime
 warnings
+warnings.simplefilter('ignore')

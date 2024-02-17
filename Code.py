@@ -58,6 +58,7 @@ import datetime
 import plotly.graph_objs as go  
 import plotly.express as px
 #warnings.simplefilter('ignore')
+pip install --upgrade pandas
 
 # %% [markdown]
 # # 4. Data Acquisition

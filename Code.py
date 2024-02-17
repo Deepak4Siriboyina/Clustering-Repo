@@ -52,10 +52,10 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import math
 import datetime
-import warnings
+#import warnings
 import plotly.graph_objs as go  
 import plotly.express as px
-warnings.simplefilter('ignore')
+#warnings.simplefilter('ignore')
 
 # %% [markdown]
 # # 4. Data Acquisition

@@ -69,7 +69,7 @@ import plotly.express as px
 # - School of Engineering, London South Bank University
 
 # %% [code] {"execution":{"iopub.status.busy":"2024-02-10T10:50:10.949800Z","iopub.execute_input":"2024-02-10T10:50:10.950164Z","iopub.status.idle":"2024-02-10T10:50:12.035371Z","shell.execute_reply.started":"2024-02-10T10:50:10.950137Z","shell.execute_reply":"2024-02-10T10:50:12.033915Z"}}
-data =  pd.read_csv('/kaggle/input/fd-ds/data.csv', encoding='unicode_escape')
+data =  pd.read_csv('Data sets/data_source.csv', encoding='unicode_escape')
 print('Shape of the data:', data.shape)
 data.head()
 

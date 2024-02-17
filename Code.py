@@ -59,7 +59,8 @@ import plotly.graph_objs as go
 import plotly.express as px
 #warnings.simplefilter('ignore')
 pip install --upgrade pandas
-
+pip install --upgrade jinja2
+ 
 # %% [markdown]
 # # 4. Data Acquisition
 

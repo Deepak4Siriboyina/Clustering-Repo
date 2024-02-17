@@ -912,6 +912,7 @@ Customer_df_new['cluster'].value_counts().plot(kind='pie', fontsize=14, autopct=
 plt.ylabel(ylabel='Count', size=14)
 plt.title(label='Proportion of Clusters by No. of Customers', size=16)
 plt.show()
+plt.savefig("Clusters.png", dpi=120)
 
 # %% [markdown]
 # #### Here's a concise conclusion for each of the three customer sets:

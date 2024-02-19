@@ -19,6 +19,8 @@ jobs:
         run: |
           # Your ML workflow goes here
           pip install -r ReqLibraries.txt
+          pip install python==3.1.2
+          
           python Code.py
       - name: Write CML report
         env:

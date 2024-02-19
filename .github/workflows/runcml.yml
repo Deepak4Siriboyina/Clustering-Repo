@@ -17,7 +17,11 @@ jobs:
            
       - name: Install Jinja2
         run: pip install Jinja2
-        
+
+      - name: Install dependencies
+        run: |
+          pip install tabulate
+          
       - uses: iterative/setup-cml@v2
       - name: Clustering model
         run: |

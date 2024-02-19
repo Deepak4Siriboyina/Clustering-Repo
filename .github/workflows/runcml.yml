@@ -37,5 +37,5 @@ jobs:
           
           echo "## Model metrics" 
           cat metrics.txt >> report.md
-          echo '![](./plot.png "Confusion Matrix")' >> report.md
+          echo '![](./plot.png "Radar_chart")' >> report.md
           cml comment create report.md

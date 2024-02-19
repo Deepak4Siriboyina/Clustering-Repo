@@ -11,15 +11,14 @@ jobs:
       # - uses: actions/setup-node@v3
       #   with:
       #     node-version: '16'
-      # - uses: actions/setup-python@v4
-      #   with:
-      #     python-version: '3.x'
+      - uses: actions/setup-python@v4
+        with:
+           python-version: '3.12'
       - uses: iterative/setup-cml@v2
       - name: Clustering model
         run: |
           # Your ML workflow goes here
           pip install -r ReqLibraries.txt
-          pip install python==3.12
           
           python Code.py
       - name: Write CML report

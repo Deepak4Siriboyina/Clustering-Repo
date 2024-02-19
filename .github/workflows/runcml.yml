@@ -37,4 +37,8 @@ jobs:
           
           echo "## Model metrics" 
           cat metrics.txt 
-          cml publish Clusters.png
+          cml publish Radar_chart.png
+          cml publish Clusters.png 
+          cml create comment.md --body "![Radar_chart](Radar_chart.png)"
+          cml create comment.md --body "![Clusters](Clusters.png)"
+

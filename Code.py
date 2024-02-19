@@ -786,6 +786,13 @@ table_data = [
 
 print(tabulate(table_data, headers=["Evaluation Metric", "Score"], tablefmt='pretty'))
 
+
+# Write scores to a file
+with open("metrics.txt", 'w') as outfile:
+        outfile.write("Silhouette Score: %2.1f%%\n" % Sil_score)
+        outfile.write("Calinski Harabasz Score: %2.1f%%\n" % Calinski_score)
+        outfile.write("Davies Bouldin Score: %2.1f%%\n" % Davies_score)
+
 # %% [markdown]
 # - The Silhouette score is **0.4360** which is considered average, but still suggests that the clustering result has relatively well-separated clusters.
 # - The Calinski-Harabasz score of **11725** implies that the clustering result has very well-defined clusters with minimal overlap and high compactness. It indicates a strong clustering solution, with clear separation between the clusters.
@@ -853,6 +860,8 @@ ax[0].grid(color='grey', linewidth=0.5)
 # Display the plot
 plt.tight_layout()
 plt.show()
+plt.savefig("Radar_chart.png", dpi=120)
+
 
 
 # %% [markdown]

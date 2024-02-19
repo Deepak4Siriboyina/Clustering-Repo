@@ -39,6 +39,7 @@ jobs:
           cat metrics.txt >> report.md
 
           echo "## Visualizing the Clusters" --md >> report.md
-          cml-publish Clusters.png --md >> report.md
-          cml-publish Radar_chart.png --md >>report.md 
+          cml publish <Clusters.png>
+          cml publish Radar_chart.png --md >>report.md 
           cml comment create report.md
+          

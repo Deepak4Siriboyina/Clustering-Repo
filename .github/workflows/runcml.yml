@@ -37,4 +37,5 @@ jobs:
           
           echo "## Model metrics" 
           cat metrics.txt 
-          cml comment "![Clusters](./Clusters.png)"
+          cml create "![Clusters](./Clusters.png)"
+          cml comment create comment.md

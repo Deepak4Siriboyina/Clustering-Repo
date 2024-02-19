@@ -39,6 +39,4 @@ jobs:
           cat metrics.txt 
           cml publish Radar_chart.png
           cml publish Clusters.png 
-          cml create comment.md --body "![Radar_chart](Radar_chart.png)"
-          cml create comment.md --body "![Clusters](Clusters.png)"
-
+        

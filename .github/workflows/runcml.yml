@@ -1,4 +1,4 @@
-oname: model-clustering
+name: model-clustering
 on: [push]
 jobs:
   run:

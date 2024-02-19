@@ -35,7 +35,7 @@ jobs:
         run: |
           # Post reports as comments in GitHub PRs
           
-          echo "## Model metrics" > report.md
+          echo "## Model metrics" >> report.md
           cat metrics.txt >> report.md
 
           echo "## Visualizing the Clusters" --md >> report.md

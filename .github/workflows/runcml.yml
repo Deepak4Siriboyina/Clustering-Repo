@@ -37,4 +37,4 @@ jobs:
           
           echo "## Model metrics" 
           cat metrics.txt 
-          cml publish Clusters.png
+          cml comment "![inline](./Clusters.png)"

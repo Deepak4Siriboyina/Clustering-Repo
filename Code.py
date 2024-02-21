@@ -862,6 +862,9 @@ plt.tight_layout()
 plt.show()
 plt.savefig("Radar_chart.png", dpi=120)
 
+# %% [markdown]
+![inline](./Radar_chart.png)
+
 
 
 # %% [markdown]
@@ -926,6 +929,9 @@ plt.ylabel(ylabel='Count', size=14)
 plt.title(label='Proportion of Clusters by No. of Customers', size=16)
 plt.show()
 plt.savefig("Clusters.png", dpi=120)
+
+# %% [markdown]
+![inline](./Clusters.png)
 
 # %% [markdown]
 # #### Here's a concise conclusion for each of the three customer sets:
